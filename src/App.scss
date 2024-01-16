@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #b1b4b9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  .App-login{
+    height: 24rem;
+    width: 30rem;
+    background-color: #dbdfe6;
+    border-radius: 1.2rem;
+    .login-fields{
+      padding: 4rem 4rem;
+      display: flex;
+      flex-direction: column;
+      height: 35%;
+      justify-content: space-between;
+    }
+  }
+}
